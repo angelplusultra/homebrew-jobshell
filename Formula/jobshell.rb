@@ -1,4 +1,4 @@
-class JobShell < Formula
+class Jobshell < Formula
   desc "Command-line tool that simplifies job searching for software engineers by scraping job postings from companies you care about"
   homepage "https://github.com/angelplusultra/job-shell"
   version "1.0.4"
