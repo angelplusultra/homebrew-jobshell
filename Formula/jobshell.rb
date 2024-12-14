@@ -5,11 +5,11 @@ class Jobshell < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.5/jobshell-macos-aarch64-binary"
-    sha256 "c20241e9ff5de97617e2e2527cba253f0987e192b1585089967d64b1ed6faa86"
+    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.5/jobshell-macos-aarch64"
+    sha256 "57ef620a5073e6341990a815e52c5f3d86c0efa39a405459a4aa48254ae30876"
   else
-    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.5/jobshell-macos-x86_64-binary"
-    sha256 "28122f310fb4bb10c55a4e0e0302e64f6b81bfa604be2725653b2d7121aaa5c8"
+    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.5/jobshell-macos-x86_64"
+    sha256 "a08b3427c8ef783bc016b7c91bb7ee3e86ae6a8f8e5406ff50e8ef5553ab0961"
   end
 
   def install
