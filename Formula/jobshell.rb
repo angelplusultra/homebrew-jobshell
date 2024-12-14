@@ -13,12 +13,10 @@ class Jobshell < Formula
   end
 
   def install
-    # Install the binary from the extracted ZIP
     bin.install "jobshell"
   end
 
   test do
-    # Test that the program runs and outputs the correct version
     assert_match "JobShell v1.0.4", shell_output("#{bin}/jobshell --version")
   end
 end
