@@ -24,14 +24,14 @@
 class Jobshell < Formula
   desc "Command-line tool that simplifies job searching for software engineers by scraping job postings from companies you care about"
   homepage "https://github.com/angelplusultra/job-shell"
-  version "1.0.6"
+  version "1.0.7"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.6/jobshell-macos-aarch64"
+    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.7/jobshell-macos-aarch64"
     sha256 "647ef3b78b2e05c301be0cc99f020435f2a26659ebf20654c352cd8df618f1bb"
   else
-    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.6/jobshell-macos-x86_64"
+    url "https://github.com/angelplusultra/job-shell/releases/download/v1.0.7/jobshell-macos-x86_64"
     sha256 "023f50d6d1a3a865a19132c08f93995f74c4f2d3e7a443395e54a6a04069990e"
   end
 
@@ -46,6 +46,6 @@ class Jobshell < Formula
 
   test do
     # Ensure the binary runs and displays the expected version
-    assert_match "JobShell v1.0.6", shell_output("#{bin}/jobshell --version")
+    assert_match "JobShell v1.0.7", shell_output("#{bin}/jobshell --version")
   end
 end
