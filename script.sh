@@ -73,7 +73,3 @@ EOL
 
 echo "Formula file created successfully at ./Formula/jobshell.rb"
 
-git add Formula/jobshell.rb
-git status
-git commit -m "Bump version to v${version}"
-git push
