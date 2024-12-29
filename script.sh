@@ -11,7 +11,7 @@ version="$1"
 # Define URLs
 arm_url="https://github.com/angelplusultra/job-shell/releases/download/v${version}/jobshell-macos-aarch64"
 intel_url="https://github.com/angelplusultra/job-shell/releases/download/v${version}/jobshell-macos-x86_64"
-linux_url= "https://github.com/angelplusultra/job-shell/releases/download/v${version}/jobshell-linux"
+linux_url="https://github.com/angelplusultra/job-shell/releases/download/v${version}/jobshell-linux"
 
 # Download binaries
 echo "Downloading jobshell binary..."
