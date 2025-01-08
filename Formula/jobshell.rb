@@ -7,14 +7,14 @@ class Jobshell < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/angelplusultra/job-shell/releases/download/v2.0.0/jobshell-macos-aarch64"
-      sha256 "5588087805f92b8c09ab9f4aa7a98a8e51744b1b5dc1c09a72b560a09371bb8f"
+      sha256 "274a9938080c876cd18f817e02073d12ba87f2927984b247126c039100c7d619"
     else
       url "https://github.com/angelplusultra/job-shell/releases/download/v2.0.0/jobshell-macos-x86_64" 
-      sha256 "985fa5a8c1f068ec2c5052f114ea3a4906f733b2ee0f1fb497bc9cb889898a18"
+      sha256 "750519392c01d3428e7c89bb89cdc32b40d0e33a1ded05c4478f40a10209dece"
     end
   else
     url "https://github.com/angelplusultra/job-shell/releases/download/v2.0.0/jobshell-linux"
-    sha256 "9a543a78d14fdff73df6f40087abaafe39f5175b97917f063ddcfa6dcecb5e68"
+    sha256 "aed8acf47bf9a0de13db76507fdbd5c989cb43b2f54a3d377fc0dbc95810ce96"
   end
 
   def install
